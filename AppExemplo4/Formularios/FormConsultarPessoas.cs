@@ -23,7 +23,7 @@ namespace AppExemplo4.Formularios
 
             for (int i = 2; i < linhas.Count()+1; i++)
             {
-
+                cbNome.Items.Add(planilha.Cell(i, 2).Value);
             }
         }
     }

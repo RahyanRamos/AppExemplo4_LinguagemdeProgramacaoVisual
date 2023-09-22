@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             this.btCadastrarPessoas = new System.Windows.Forms.Button();
+            this.btConsultarPessoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btCadastrarPessoas
             // 
             this.btCadastrarPessoas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCadastrarPessoas.Location = new System.Drawing.Point(309, 297);
+            this.btCadastrarPessoas.Location = new System.Drawing.Point(309, 30);
             this.btCadastrarPessoas.Name = "btCadastrarPessoas";
             this.btCadastrarPessoas.Size = new System.Drawing.Size(174, 51);
             this.btCadastrarPessoas.TabIndex = 0;
@@ -42,11 +43,23 @@
             this.btCadastrarPessoas.UseVisualStyleBackColor = true;
             this.btCadastrarPessoas.Click += new System.EventHandler(this.btCadastrarPessoas_Click);
             // 
+            // btConsultarPessoa
+            // 
+            this.btConsultarPessoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btConsultarPessoa.Location = new System.Drawing.Point(309, 107);
+            this.btConsultarPessoa.Name = "btConsultarPessoa";
+            this.btConsultarPessoa.Size = new System.Drawing.Size(174, 51);
+            this.btConsultarPessoa.TabIndex = 1;
+            this.btConsultarPessoa.Text = "Consultar Pessoas";
+            this.btConsultarPessoa.UseVisualStyleBackColor = true;
+            this.btConsultarPessoa.Click += new System.EventHandler(this.btConsultarPessoa_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btConsultarPessoa);
             this.Controls.Add(this.btCadastrarPessoas);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Button btCadastrarPessoas;
+        private System.Windows.Forms.Button btConsultarPessoa;
     }
 }
 

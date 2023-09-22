@@ -23,5 +23,11 @@ namespace AppExemplo4
             FormCadastrarPessoa form = new FormCadastrarPessoa();
             form.ShowDialog();
         }
+
+        private void btConsultarPessoa_Click(object sender, EventArgs e)
+        {
+            FormConsultarPessoas form = new FormConsultarPessoas();
+            form.ShowDialog();
+        }
     }
 }
